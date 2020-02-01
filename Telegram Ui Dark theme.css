@@ -1,0 +1,72 @@
+.im_dialogs_col_wrap {
+    width: 20%;
+}
+.im_content_message_wrap {
+    padding: 8px 10px 8px 16px;
+    margin: 8px 10px 8px 16px;
+    background-color: #3d3d3d;
+    border-radius: 12px;
+}
+    
+body {
+    color: #fff;
+    background-color: #1a1919;
+}
+.im_page_wrap{
+    border: 0px;
+    max-width: 67%;
+}
+.im_page_split {
+    background-color: #2d2d2d;
+}
+.im_dialogs_col_wrap {
+    background-color: #0d0d0d;
+    border-right: 2px solid #1d1d1d;
+}
+.im_dialogs_col .nano > .nano-pane > .nano-slider {
+    background: rgba(130,202,255,0.67);
+}
+.tg_head_split {
+    max-width: 1920px;
+}
+.tg_head_main_wrap {
+    float: right;
+    width: 100%;
+}
+.tg_head_peer_title_wrap .tg_head_btn {
+    padding: 0
+    line-height: 18px;
+    min-width: 300px;
+    max-height: 1920px;
+    max-width: 67%;
+    position: fixed;
+    width:53.7%;
+    left: 29.8%;
+    
+}
+.tg_head_peer_title {
+    max-width: 80%;
+}
+.im_dialog_peer {
+    color: #919191;
+}
+
+.composer_rich_textarea, .composer_textarea{
+    min-height: 3vh;
+}
+.composer_emoji_insert_btn{
+    margin-right: 10px;
+}
+.im_panel_peer_photo{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    
+}
+.im_panel_own_photo {
+        border-bottom-left-radius: 0%;
+}
