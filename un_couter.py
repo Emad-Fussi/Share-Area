@@ -4,7 +4,7 @@ class count:
     domins = {}
 
     def get_domin(self, txt: str):
-        print(txt)
+        #print(txt)
         read = False
         domin = ""
         for i in txt:
@@ -36,6 +36,10 @@ class count:
         self.counter(self.get_domin(read))
 
 
-print(count(text).domins)
+ouputis = count(text).domins
+
+for i in ouputis:
+    ee = str(i).replace("@", "")
+    print(ee.replace(".edu.sa", "").upper() , ":", ouputis[i] ,"email" if ouputis[i] == 1 else "emails" )
 
 #it's took aroud 3h
